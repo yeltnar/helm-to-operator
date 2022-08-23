@@ -24,6 +24,7 @@ Create the management resources
  - Docker must be running on your machine 
  - from the `workdir` folder, run `../run.sh first` 
    - This will build the image from the helm chart, and push it to the image registry
+   - Make sure your container image is accessable from the cluster 
  - wait for the operator containers to be running
 
 Deploy the Operator
